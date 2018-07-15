@@ -30,9 +30,7 @@ Our algorithm works as follows, assuming we have inputs x<sub>1</sub>,x<sub>2</s
 
 We randomly pick K cluster centers(centroids). Let’s assume these are c<sub>1</sub>,c<sub>2</sub>,…,c<sub>k</sub>, and we can say that: 
 
-<p align="center">
-  ![alt text](https://imgur.com/a79hAkQ.png "Step 1 formulas")
-</p>
+![alt text](https://imgur.com/a79hAkQ.png "Step 1 formulas")
 
 C is the set of all centroids.
 
@@ -40,9 +38,7 @@ C is the set of all centroids.
 
 In this step we assign each input value to closest center. This is done by calculating Euclidean(L2) distance between the point and the each centroid.
 
-<p align="center">
-  ![alt text](https://imgur.com/BadzRvI.png "Step 2 formulas")
-</p>
+![alt text](https://imgur.com/BadzRvI.png "Step 2 formulas")
 
 Where dist(.) is the Euclidean distance.
 
@@ -50,9 +46,14 @@ Where dist(.) is the Euclidean distance.
 
 In this step, we find the new centroid by taking the average of all the points assigned to that cluster.
 
-<p align="center">
-  ![alt text](https://imgur.com/IebqOfU.png "Step 3 formulas")
-</p>
+![alt text](https://imgur.com/IebqOfU.png "Step 3 formulas")
 
 S<sub>i</sub> is the set of all points assigned to the i<sup>th</sup> cluster.
+
+# Choosing the value of K
+
+We often know the value of K. In that case we use the value of K. Else we use the **Elbow Method**.
+
+![alt text](https://i.imgur.com/k3o6NxK.jpg "Choosing the value of k")
+
 
