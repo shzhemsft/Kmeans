@@ -30,5 +30,23 @@ Our algorithm works as follows, assuming we have inputs x<sub>1</sub>,x<sub>2</s
 
 We randomly pick K cluster centers(centroids). Let’s assume these are c<sub>1</sub>,c<sub>2</sub>,…,c<sub>k</sub>, and we can say that: 
 
-![alt text](https://i.imgur.com/k4XcapI.gif "Step 1 formulas")
+![alt text](https://imgur.com/a79hAkQ "Step 1 formulas")
+
+C is the set of all centroids.
+
+## Step 2
+
+In this step we assign each input value to closest center. This is done by calculating Euclidean(L2) distance between the point and the each centroid.
+
+![alt text](https://imgur.com/BadzRvI "Step 2 formulas")
+
+Where dist(.) is the Euclidean distance.
+
+## Step 3
+
+In this step, we find the new centroid by taking the average of all the points assigned to that cluster.
+
+![alt text](https://imgur.com/IebqOfU "Step 3 formulas")
+
+S<sub>i</sub> is the set of all points assigned to the i<super>th</super> cluster.
 
