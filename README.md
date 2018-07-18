@@ -253,11 +253,9 @@ Cluster analysis or clustering is the task of grouping a set of objects in such 
 
 ![alt text](https://i.stack.imgur.com/sxEi9.jpg "clustering vs. classification")
 
-![alt text](https://i.stack.imgur.com/a8t3k.jpg "comparisons")
+![alt text](http://cdn.differencebetween.net/wp-content/uploads/2018/01/Differences-Between-Supervised-Learning-and-Unsupervised-Learning.png "comparisons")
 
-# A step back further - supervised vs. unsupervised learning
 
-![alt text](https://i.stack.imgur.com/6e5dt.jpg "supervised vs. unsupervised")
 
 
 
