@@ -214,6 +214,31 @@ plt.show()
 In the above image, you can see 4 clusters and their centroids as stars. scikit-learn approach is very simple and concise.
 
 
+# Now let's take a step back...
+
+We have covered classification, regression, and clustering in this class. Can you compare and contrast these three data science techniques? 
+
+## Regression
+
+regression analysis is a set of statistical processes for estimating the relationships among variables. It includes many techniques for modeling and analyzing several variables, when the focus is on the relationship between a dependent variable and one or more independent variables (or 'predictors'). More specifically, regression analysis helps one understand how the typical value of the dependent variable changes when any one of the independent variables is varied, while the other independent variables are held fixed.
+
+## Classification
+
+Classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known. Examples are assigning a given email to the "spam" or "non-spam" class, and assigning a diagnosis to a given patient based on observed characteristics of the patient (gender, blood pressure, presence or absence of certain symptoms, etc.). In the terminology of machine learning, classification is considered an instance of supervised learning, i.e. learning where a training set of correctly identified observations is available. The corresponding unsupervised procedure is known as clustering, and involves grouping data into categories based on some measure of inherent similarity or distance.
+
+## CLustering 
+
+Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
+
+![alt text](https://i.stack.imgur.com/sxEi9.jpg "clustering vs. classification")
+
+![alt text](https://i.stack.imgur.com/a8t3k.jpg "comparisons")
+
+![alt text](https://i.stack.imgur.com/6e5dt.jpg "supervised vs. unsupervised")
+
+
+
+
 
 
 
