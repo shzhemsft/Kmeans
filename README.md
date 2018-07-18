@@ -213,6 +213,27 @@ plt.show()
 
 In the above image, you can see 4 clusters and their centroids as stars. scikit-learn approach is very simple and concise.
 
+# The limitations of k-means clustering
+
+K-means is a widely used method in cluster analysis. Technically, this method does NOT require ANY assumptions, i.e., give me a dataset and a pre-specified number of clusters, k, and I can just apply this algorithm which minimizes the sum of squared errors (SSE), the within cluster squared error. However, there are very few "free lunches" in our life. The easy-of-use of the algorithm comes with several limitations/drawbacks, as described below. 
+
+## Limitation 1: the trouble with closed frontiers
+
+![alt text](https://i.stack.imgur.com/g5Jb8.png "k-means fails for spherical frontier")
+
+![alt text](https://i.stack.imgur.com/SlpL1.png "k-means fails for spherical frontier")
+
+But a quick treatment on the original dataset solves the problem. Can you see it? Hint: polar coordinates. 
+
+![alt text](https://i.stack.imgur.com/0sUph.png "k-means with polar coordinates")
+
+
+## Limitation 2: the trouble with non-uniform data density
+
+![alt text](https://i.stack.imgur.com/WiH4T.png "k-means with un-even input")
+
+![alt text](https://i.stack.imgur.com/zAI1g.png "k-means with un-even input")
+
 
 # Now let's take a step back...
 
@@ -233,6 +254,8 @@ Cluster analysis or clustering is the task of grouping a set of objects in such 
 ![alt text](https://i.stack.imgur.com/sxEi9.jpg "clustering vs. classification")
 
 ![alt text](https://i.stack.imgur.com/a8t3k.jpg "comparisons")
+
+# A step back further - supervised vs. unsupervised learning
 
 ![alt text](https://i.stack.imgur.com/6e5dt.jpg "supervised vs. unsupervised")
 
